@@ -1,0 +1,1 @@
+print("\"The Zen of Pyhton\" by Tim Peters\n")
