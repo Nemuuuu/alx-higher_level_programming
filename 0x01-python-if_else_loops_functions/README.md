@@ -1,1 +1,1 @@
-2nd project
+## This is Python programming project which comprises conditional expressions, loops and functions
