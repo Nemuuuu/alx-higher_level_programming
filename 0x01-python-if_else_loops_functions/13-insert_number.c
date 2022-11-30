@@ -1,16 +1,16 @@
 #include "lists.h"
 #include <stdio.h>
-int insert_number(listint_t num)
+listint_t *insert_node(listint_t **head, int number)
 {
-    node *temp, *temp2, *temp3;
+    listint_t *temp, *temp2, *temp3;
     temp = malloc(sizeof(listint_t));
-    temp->data = num;
+    temp->n = number;
     temp->next = NULL;
     if (head == NULL)
         head = temp;
     else{
         temp2 = head;
-        while (temp->data > temp2->data)
+        while (temp->n > temp2->n)
         {
             temp3 = temp2;
             temp2 = temp2->next;
