@@ -5,7 +5,7 @@ if __name__ == '__name__':
     if i >= len(sys.argv):
         print("0 arguments.")
     else:
-        while i >= len(sys.argv):
+        while i <= len(sys.argv):
             if len(sys.argv) == 2:
                 print("{} argument: ".format(len(sys.argv) - 1))
                 print("{}: {}".format(i,sys.argv[i]))
