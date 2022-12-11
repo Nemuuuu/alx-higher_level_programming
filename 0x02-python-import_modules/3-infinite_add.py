@@ -7,6 +7,6 @@ if len(sys.argv) == 1:
 else:
     while i < len(sys.argv):
         sum += int(sys.argv[i])
-     i += 1
-	print("{}".format(sum))
+    i += 1
+    print("{}".format(sum))
 
