@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-c = "abcdefghijklmnopqrstuvwxyz"
-for i in range(0, 26):
-    print(c[i],end="")
+for i in range(97, 123):
+    print(chr(i),end="")
