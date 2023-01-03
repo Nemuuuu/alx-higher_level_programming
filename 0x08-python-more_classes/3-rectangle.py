@@ -71,7 +71,7 @@ class Rectangle:
             perimeter = 2 * self.__width + 2 * self.__height
         return perimeter
     def __str__(self):
-        """str representation of rectangle
+        """Official representation of rectangle
         """
         rect = ""
         for i in range(self.__height):
