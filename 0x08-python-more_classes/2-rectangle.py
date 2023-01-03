@@ -3,8 +3,8 @@
 """
 
 class Rectangle:
-"""Define Rectangle with properties of rectangle
-"""
+	"""Define Rectangle with properties of rectangle
+	"""
 
     def __init__(self, width=0, height=0):
 	"""Initializes width and height of rectangle
