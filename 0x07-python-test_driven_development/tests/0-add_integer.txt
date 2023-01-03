@@ -1,2 +1,24 @@
-doc test
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+If both a and b are integers or floats
+
+::
+	>>> add_integer(2, 4)
+	6
+	>>> add_integer(100.3, -2)
+	98
+
+If a is not integer or float
+
+::
+	>>> add_integer("School", 4)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+If b is not integer or float
+
+::
+	>>> add_integer(2, "School")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
 

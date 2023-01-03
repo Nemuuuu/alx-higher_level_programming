@@ -1,1 +1,25 @@
-matrix
+	>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+if div is 0
+
+::
+
+	>>> print(matrix_divided(matrix, 0))
+	Traceback (most recent call last):
+	ZeroDivisionError: division by zero
+
+if div is different from float or integer type
+
+::
+
+	>>> print(matrix_divided(matrix, "hi"))
+	Traceback (most recent call last):
+	TypeError: div must be a number
+
+if list of lists are different from integer or float
+
+::
+
+	>>> print(matrix_divided(matrix, 4))
+	Traceback (most recent call last):
+	TypeError: matrix must be a matrix (list of lists) os integers/floats

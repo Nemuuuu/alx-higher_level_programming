@@ -1,2 +1,10 @@
-text indentation
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("This is Neima Nesru. I am from Alx Ethiopia: can you tell me whe
+re you are from?")
+This is Neima Nesru.
 
+ I am from Alx Ethiopia:
+
+ can you tell me where you are from?
+
+>>>
