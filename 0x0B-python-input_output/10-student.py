@@ -28,11 +28,3 @@ class Student(object):
             if key in attrs:
                 dictionary[key] = value
         return dictionary
-
-    def reload_from_json(self, json):
-        """Replace all attributes of the Student.
-        Args:
-            json (dict): The key/value pairs to replace attributes with.
-        """
-        for key, value in json.items():
-            setattr(self, key, value)
